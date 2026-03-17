@@ -76,3 +76,49 @@ OUTPUT:
 Lagged prices dominate because electricity prices show strong autocorrelation. Net load captures the balance between demand and renewable generation.
 
 ----------------
+PROMPT:
+
+Forecast price: 33.97 €/MWh
+Market price: 34.40 €/MWh
+
+Explain whether this suggests bullish or bearish pressure
+in the day-ahead electricity market.
+
+
+OUTPUT:
+Forecast below market price suggests bearish pressure.
+
+----------------
+PROMPT:
+
+Write a short electricity market summary.
+
+Forecast price: 33.97 €/MWh
+Market price: 34.40 €/MWh
+Trading signal: SHORT POWER
+
+
+OUTPUT:
+Forecast price is 33.97 €/MWh compared to market price 34.40 €/MWh. Trading signal: SHORT POWER.
+
+----------------
+PROMPT:
+
+Explain why these features are important for electricity price forecasting:
+
+price_lag_1: 0.878
+net_load: 0.033
+hour: 0.022
+price_lag_24: 0.016
+solar_lag_1: 0.012
+day_of_week: 0.009
+rolling_mean_24: 0.009
+net_load_lag_1: 0.008
+wind_lag_1: 0.007
+load_lag_1: 0.006
+
+
+OUTPUT:
+Lagged prices dominate because electricity prices show strong autocorrelation. Net load captures the balance between demand and renewable generation.
+
+----------------
