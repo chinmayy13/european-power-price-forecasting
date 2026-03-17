@@ -1,0 +1,78 @@
+PROMPT:
+
+Explain electricity price drivers using these fundamentals:
+
+Net Load: 34087.0
+Wind Generation: 12533.0
+Solar Generation: 0.0
+Forecast Price: 33.97 €/MWh
+
+
+OUTPUT:
+Strong wind generation increases renewable supply, which typically puts downward pressure on electricity prices. Solar output is limited, tightening supply conditions. Moderate net load reduces the need for expensive thermal generation. The model forecasts a day-ahead price of 33.97 €/MWh.
+
+----------------
+PROMPT:
+
+You are an electricity market analyst.
+
+Explain the likely drivers of electricity prices given:
+
+Net Load: 34087.0
+Wind Generation: 12533.0
+Solar Generation: 0.0
+Forecast Price: 33.97 €/MWh
+
+Provide a short explanation.
+
+
+OUTPUT:
+Strong wind generation increases renewable supply, which can lower electricity prices. The model forecasts a price of 33.97 €/MWh.
+
+----------------
+PROMPT:
+
+Forecast price: 33.97 €/MWh
+Market price: 34.40 €/MWh
+
+Explain whether this suggests bullish or bearish pressure
+in the day-ahead electricity market.
+
+
+OUTPUT:
+Forecast below market price suggests bearish pressure.
+
+----------------
+PROMPT:
+
+Write a short electricity market summary.
+
+Forecast price: 33.97 €/MWh
+Market price: 34.40 €/MWh
+Trading signal: SHORT POWER
+
+
+OUTPUT:
+Forecast price is 33.97 €/MWh compared to market price 34.40 €/MWh. Trading signal: SHORT POWER.
+
+----------------
+PROMPT:
+
+Explain why these features are important for electricity price forecasting:
+
+price_lag_1: 0.878
+net_load: 0.033
+hour: 0.022
+price_lag_24: 0.016
+solar_lag_1: 0.012
+day_of_week: 0.009
+rolling_mean_24: 0.009
+net_load_lag_1: 0.008
+wind_lag_1: 0.007
+load_lag_1: 0.006
+
+
+OUTPUT:
+Lagged prices dominate because electricity prices show strong autocorrelation. Net load captures the balance between demand and renewable generation.
+
+----------------
