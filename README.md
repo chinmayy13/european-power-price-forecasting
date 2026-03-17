@@ -1,7 +1,5 @@
 # European Power Fair Value Forecasting Prototype
 
-**Author:** Chinmay Kumar  
-**Email:** chinmayykumarr@gmail.com
 
 ## Overview
 
